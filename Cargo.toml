@@ -1,5 +1,5 @@
 [package]
-name = "opengl_sandbox:"
+name = "opengl_sandbox"
 version = "0.1.0"
 authors = ["Jakub"]
 edition = "2018"
@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 sdl2 = { version = "0.31.0", features = ["bundled", "static-link"] }
+gl = "0.14.0"
